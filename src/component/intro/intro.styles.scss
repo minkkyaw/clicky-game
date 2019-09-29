@@ -1,0 +1,35 @@
+.intro-container {
+  background-image: url('https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&w=1000&q=80');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 150px 0;
+  text-align: center;
+  position: relative;
+
+  .intro-details {
+    margin: 0 auto;
+    color: #fff;
+    text-shadow: 2px 2px 2px #C76238;
+    
+    h2 {
+      font-size: 50px;
+    }
+    p {
+      font-size: 30px;
+    }
+  }
+  .score-board {
+      background-color: #38C762;
+      text-align: center;
+      width: 330px;
+      color: #fff;
+      padding: 20px;
+      font-size: 20px;
+      display: flex;
+      justify-content: space-evenly;
+      position: absolute;
+      bottom: -31px;
+      left: calc(50% - 150px);
+    }
+}

@@ -1,0 +1,16 @@
+.score-board-score {
+  font-weight: 700;
+  font-size: 20px;
+
+  .width-150 {
+    display: inline-block;
+    width: fit-content;
+    padding-right: 5px;
+  }
+
+  .score {
+    display: inline-block;
+    width: 20px;
+    text-align: right;
+  }
+}

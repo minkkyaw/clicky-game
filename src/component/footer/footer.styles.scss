@@ -1,0 +1,16 @@
+.footer-container {
+  color: #D22DD1;
+  text-align: center;
+  background-color: #7EE2E3;
+  border-top: 5px solid #D8DB88;
+  padding: 10px 20px;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
